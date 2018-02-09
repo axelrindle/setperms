@@ -1,0 +1,47 @@
+{
+  "name": "setperms",
+  "version": "1.0.0",
+  "description": "Two-in-one solution for chmod(1) and chown(1)",
+  "main": "./cli.js",
+  "repository": "git@github.com:axelrindle/setperms.git",
+  "author": "Axel Rindle <axel.rindle@gmx.de>",
+  "license": "MIT",
+  "dependencies": {
+    "bluebird": "^3.5.1",
+    "chalk": "^2.3.0",
+    "commander": "^2.14.1",
+    "github-version-checker": "^1.2.0"
+  },
+  "bin": {
+    "setperms": "./cli.js"
+  },
+  "os": [
+    "darwin",
+    "linux",
+    "android"
+  ],
+  "man": [
+    "./man/setperms.1",
+    "./man/setperms.8"
+  ],
+  "devDependencies": {
+    "xo": "^0.18.2"
+  },
+  "xo": {
+    "prettier": true,
+    "rules": {
+      "indent": [
+        "error",
+        2
+      ],
+      "curly": "off",
+      "no-use-extend-native/no-use-extend-native": "off",
+      "no-unused-vars": [
+        "error",
+        {
+          "argsIgnorePattern": "^_"
+        }
+      ]
+    }
+  }
+}
