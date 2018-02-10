@@ -24,5 +24,8 @@ For help type:
 $ setperms --help
 ```
 
+## See also
+- [readperms](https://github.com/axelrindle/readperms)
+
 ## License
 [MIT](https://github.com/axelrindle/setperms/blob/master/LICENSE)
