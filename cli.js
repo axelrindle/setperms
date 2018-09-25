@@ -68,7 +68,8 @@ const execute = () => {
 
 // Check for updates
 const updateOpts = {
-  repo: 'axelrindle/setperms',
+  owner: 'axelrindle',
+  repo: 'setperms',
   currentVersion: pkg.version
 };
 versionCheck(updateOpts)

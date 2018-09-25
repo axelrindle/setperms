@@ -2,14 +2,14 @@
   "name": "setperms",
   "version": "1.0.0",
   "description": "Two-in-one solution for chmod(1) and chown(1)",
-  "main": "./cli.js",
+  "main": "cli.js",
   "repository": "git@github.com:axelrindle/setperms.git",
   "author": "Axel Rindle <axel.rindle@gmx.de>",
   "license": "MIT",
   "dependencies": {
-    "chalk": "^2.3.0",
-    "commander": "^2.14.1",
-    "github-version-checker": "^1.2.0"
+    "chalk": "^2.4.1",
+    "commander": "^2.18.0",
+    "github-version-checker": "^2.1.0"
   },
   "bin": {
     "setperms": "./cli.js"
