@@ -8,10 +8,6 @@
 ```bash
 $ npm install -g setperms
 ```
-or
-```bash
-$ yarn global add setperms
-```
 
 ## Usage
 
