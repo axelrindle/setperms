@@ -1,6 +1,6 @@
 {
   "name": "setperms",
-  "version": "1.0.1",
+  "version": "1.0.2",
   "description": "Two-in-one solution for chmod(1) and chown(1)",
   "main": "cli.js",
   "repository": "git@github.com:axelrindle/setperms.git",
