@@ -22,25 +22,5 @@
   "man": [
     "./man/setperms.1",
     "./man/setperms.8"
-  ],
-  "devDependencies": {
-    "xo": "^0.18.2"
-  },
-  "xo": {
-    "prettier": true,
-    "rules": {
-      "indent": [
-        "error",
-        2
-      ],
-      "curly": "off",
-      "no-use-extend-native/no-use-extend-native": "off",
-      "no-unused-vars": [
-        "error",
-        {
-          "argsIgnorePattern": "^_"
-        }
-      ]
-    }
-  }
+  ]
 }
